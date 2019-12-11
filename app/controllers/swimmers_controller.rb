@@ -59,8 +59,9 @@ class SwimmersController < ApplicationController
   private
 
   def swimmer_params
-    params.require(:swimmer).permit(:name, :description, :coach, :category_id, :swimmer_img)
+    params.require(:swimmer).permit(:name, :gender, :age, :poolclub, :rost, :weihgt, :achievement, :bestresult, :nomertel, :description, :coach, :category_id, :swimmer_img)
   end
+
 
   def find_swimmer
     @swimmer = Swimmer.find(params[:id])

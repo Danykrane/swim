@@ -40,8 +40,16 @@ ActiveRecord::Schema.define(version: 2018_12_19_181846) do
 
   create_table "swimmers", force: :cascade do |t|
     t.string "name"
-    t.text "description"
+    t.string "gender"
+    t.integer "age"
+    t.string "poolclub"
     t.string "coach"
+    t.string "rost"
+    t.string "weihgt"
+    t.text "achievement"
+    t.text "bestresult"
+    t.string "nomertel"
+    t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"

@@ -8,10 +8,10 @@ ruby '2.5.1'
 gem 'rails'
 
 group :assets do
-	gem 'sass-rails'
-	gem 'uglifier'
-	gem 'coffee-rails'
-	gem 'therubyracer'
+  gem 'sass-rails'
+  gem 'uglifier'
+  gem 'coffee-rails'
+  gem 'therubyracer'
 end
 
 
@@ -24,7 +24,7 @@ gem 'simple_form'
 gem 'puma'
 
 group :production do
-	gem 'pg' 
+  gem 'pg' 
 
 end
 
